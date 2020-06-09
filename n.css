@@ -1,0 +1,124 @@
+.sr__card {
+    padding: 16px;
+    border-radius: 3px;
+    border: 1px solid #ededed;
+    margin: 16px 0;
+    display: flex;
+    -webkit-box-pack: justify;
+    flex-wrap: wrap;
+}
+
+
+
+.sr__card_content {
+    padding-left: 16px;
+    order: 2;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.sr__card_main_row {
+    display: -ms-flexbox;*/
+    display: flex;
+    height: 100%;
+}
+
+.sr__card_main {
+
+}
+
+.bui-spacer--medium {
+    margin-bottom: 8px!important;
+}
+
+.sr__card_main header a {
+    text-decoration: none;
+    
+}
+a:visited {
+    color: #707070;
+    font-weight: bold;
+}
+
+.system-font {
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.bui-card__title{
+    color: #1e7f4b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bui-card__subtitle{
+    color: black;
+}
+.sr__card_review {
+    text-align: right;
+    margin-left: 24px;
+    max-width: 45%;
+    flex-shrink: 0;
+}
+
+.bui-review-score {
+    display: inline-flex;
+}
+
+.bui-review-score--end {
+    flex-direction: row-reverse;
+}
+
+.bui-spacer--large {
+    margin-bottom: 16px!important;
+}
+
+.bui-review-score__badge {
+    background: #1e7f4b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px 6px 6px 0;
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+    justify-content: center;
+    
+}
+
+.bui-review-score--end .bui-review-score__badge+.bui-review-score__content {
+    margin-left: 0;
+    margin-right: 8px;
+    text-align: right;
+}
+
+.bui-review-score__title {
+    color: #003580;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.bui-review-score__text {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.sr__card_price {
+    line-height: 24px;
+}
+
+.bui-spacer--large {
+    margin-bottom: 16px!important;
+}
+
+.sr__card_price span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #077812;
+    margin: 8px;
+}

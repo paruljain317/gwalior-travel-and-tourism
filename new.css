@@ -1,0 +1,188 @@
+/*monuments page */
+
+.nav1{
+	font-weight: bold;
+	font-size: 17px;
+}
+.card-body{
+	font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 16px 16px 0;
+}
+.content-card{
+	margin-bottom: 30px;
+    box-shadow: 0 2px 4px 0 rgba(178,178,178,.5);
+    border: 1px solid rgba(202,202,202,.29);
+    border-radius: 3px;
+}
+
+/*monuments page end*/
+
+
+/*plan your travel page*/
+
+.howToGetSection {
+    background: #c9c797;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.howToGetSection h2 {
+    margin: 0;
+    padding: 50px 0 55px;
+    font-size: 40px;
+    color: #1e7f4b;
+    font-family: 'Limelight';
+}
+
+.howToGetColCon {
+    padding: 30px 22px 20px;
+    background: #e9e9d0;
+    position: relative;
+    min-height: 250px;
+}
+
+.howToGetColCon:before {
+    border: 2px solid #fff;
+    content: "";
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+}
+
+.howToGetColCon h4 {
+    font: normal 20px Roboto-Regular;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-weight: bold;
+}
+
+.howToGetColCon img {
+    display: inline-block;
+    margin: 12px 0 0;
+    width: 75px;
+}
+
+.howToGetColCon p {
+    margin: 12px 0;
+    padding: 0;
+    font: normal 15px Roboto-Regular;
+    color: #4c4c4c;
+    line-height: 23px;
+    position: relative;
+}
+
+.travelTools {
+    padding: 50px 0 80px;
+}
+
+.heading2 {
+    color: #009545;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Limelight';
+}
+
+.part{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.icon {
+    border: 4px solid #75a86a;
+    border-radius: 100%;
+    display: inline-block;
+    background: -webkit-linear-gradient(left,#335933 0%,#335933 50%,#517251 50%,#517251 100%);
+}
+.part h4 {
+    text-transform: uppercase;
+    color: #009245;
+    padding: 20px 0 10px;
+    font: normal 16px Museo-700;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.part p {
+    font-size: 14px;
+    color: #595959;
+    text-align: center;
+}
+.part a{
+    text-decoration: none;
+}
+
+/*end plan your travel page*/
+
+
+/*gwalior overview page*/
+
+.overview{
+    /*background-color: #cc4848;*/
+    font-family: serif;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+
+.overview_text{
+    color: black;
+    font-size: 1.2rem;
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.sub_heading{
+    font-weight: bold;
+}
+
+
+/*gwalior overview page end*/
+
+/*shopping page*/
+
+.frame {
+    text-align: center; 
+    position: relative;
+    cursor: pointer;    
+    perspective: 500px; 
+}
+.frame img {
+    width: 320px;
+    height: 320px;
+}
+.frame .details {
+    width: 85%;
+    height: 80%;    
+    padding: 5% 8%;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateY(90deg);
+    transform-origin: 50%;
+    background: rgba(255,255,255,0.9);  
+    opacity: 0;
+    transition: all 0.4s ease-in;
+    
+}
+.frame:hover .details {
+    transform: translate(-50%, -50%) rotateY(0deg);
+    opacity: 1;
+}
+
+
+.details_link{
+    color: #227297;
+}
+
+.details_text{
+    font-size: x-small;
+}
